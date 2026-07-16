@@ -1,0 +1,14 @@
+body {
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: maroon;
+    background-color: aquamarine;
+}
+h2 {
+    color: brown;
+}
+p {
+    text-align: justify;
+}

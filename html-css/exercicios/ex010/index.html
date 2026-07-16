@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Links externos</h1>
+    <p>Acesse <a href="https://github.com/adamenas" target="_blank" rel="external">aqui</a> meu repositório no GitHub</p>
+    <p>O parâmetro target="_blank" é fundamental pra abrir o link externo em nova aba, para não fechar nosso site. O rel="external" é uma informação pro navegador</p>
+    
+    <h1>Links internos</h1>
+    <p>Clicando <a href="pag002.html" rel="next">aqui</a> você acessa a segunda página (pag002.html).</p>
+    <p>Como é página interna, não uso o parâmetro target="_blank"</p>
+    <p>E também <a href="noticias/pag003.html">aqui</a> a página de notícias. Aqui o arquivo está em outra pasta, portanto ela deve ser inserida no endereço, assim como nas imagens</p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/texto.txt" target="_blank">Texto txt</a></li>
+        <li><a href="livro/texto.txt.zip" download="texto.txt.zip" type="application/zip">Texto txt zipado</a></li>
+    </ul>
+</body>
+</html>
