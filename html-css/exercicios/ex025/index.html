@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu responsivo</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        header {
+            text-align: center;
+        }
+        menu {
+            display: none;
+
+        }
+        menu a {
+            display: block;
+            background-color: gray;
+            text-decoration: none;
+            text-align: center;
+        }
+        menu a:hover {
+            background-color: rgb(88, 84, 84);
+            color: white;
+        }
+        ul {
+            list-style-type: none;
+        }
+        main {
+            background-color: lightcyan;
+            width: 90vw;
+            max-width: 600px;
+            border-radius: 10px;
+            margin: auto;
+            padding: 20px;
+            text-align: justify;
+        }
+        .menuzim {
+            background-color: gray;
+        }
+        .menuzim:hover {
+            background-color: rgb(37, 37, 37);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TÍTULO DO SITE</h1>
+        <p>Abaixo, o menu</p>
+        <p id="burger" onclick="clickMenu()" class="menuzim">menu</p>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">item 01</a></li>
+                <li><a href="#">item 02</a></li>
+                <li><a href="#">item 03</a></li>
+                <li><a href="#">item 04</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, magni incidunt? Ad, maiores dignissimos atque, officia modi voluptas quo itaque impedit ipsa mollitia iste alias neque repellendus asperiores numquam repellat! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur praesentium hic minus iure omnis amet incidunt temporibus autem saepe architecto aliquam nihil, corrupti perferendis veritatis illo mollitia in fugiat. Officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ullam quos. Neque veniam incidunt adipisci nemo, ex odio excepturi quia officiis cumque laborum inventore eius, dolor quos. Veritatis, porro exercitationem!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, magni incidunt? Ad, maiores dignissimos atque, officia modi voluptas quo itaque impedit ipsa mollitia iste alias neque repellendus asperiores numquam repellat! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur praesentium hic minus iure omnis amet incidunt temporibus autem saepe architecto aliquam nihil, corrupti perferendis veritatis illo mollitia in fugiat. Officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ullam quos. Neque veniam incidunt adipisci nemo, ex odio excepturi quia officiis cumque laborum inventore eius, dolor quos. Veritatis, porro exercitationem!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, magni incidunt? Ad, maiores dignissimos atque, officia modi voluptas quo itaque impedit ipsa mollitia iste alias neque repellendus asperiores numquam repellat! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur praesentium hic minus iure omnis amet incidunt temporibus autem saepe architecto aliquam nihil, corrupti perferendis veritatis illo mollitia in fugiat. Officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ullam quos. Neque veniam incidunt adipisci nemo, ex odio excepturi quia officiis cumque laborum inventore eius, dolor quos. Veritatis, porro exercitationem!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, magni incidunt? Ad, maiores dignissimos atque, officia modi voluptas quo itaque impedit ipsa mollitia iste alias neque repellendus asperiores numquam repellat! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur praesentium hic minus iure omnis amet incidunt temporibus autem saepe architecto aliquam nihil, corrupti perferendis veritatis illo mollitia in fugiat. Officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ullam quos. Neque veniam incidunt adipisci nemo, ex odio excepturi quia officiis cumque laborum inventore eius, dolor quos. Veritatis, porro exercitationem!</p>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
